@@ -25,6 +25,13 @@
 
 storage.googleapis.com
 runs/*
+# Allow analysis backup directory (including images, weights removed manually)
+!analysis/runs_backup/
+!analysis/runs_backup/**
+!analysis/runs_backup/**/*.jpg
+!analysis/runs_backup/**/*.png
+!analysis/runs_backup/**/*.csv
+!analysis/runs_backup/**/*.yaml
 data/*
 data/images/*
 !data/*.yaml
@@ -36,6 +43,7 @@ data/images/*
 !data/*.sh
 
 results*.csv
+!analysis/runs_backup/**/results.csv
 
 # Datasets -------------------------------------------------------------------------------------------------------------
 coco/
