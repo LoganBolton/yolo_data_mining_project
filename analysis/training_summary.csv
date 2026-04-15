@@ -1,0 +1,11 @@
+Metric,Value
+Best Epoch,88.0
+Best mAP@0.5:0.95,0.50125
+Best mAP@0.5,0.76473
+Best Precision,0.75067
+Best Recall,0.7185
+Final Epoch,88.0
+Final mAP@0.5:0.95,0.50125
+Final mAP@0.5,0.76473
+Final Precision,0.75067
+Final Recall,0.7185
